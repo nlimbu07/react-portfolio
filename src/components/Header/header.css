@@ -93,7 +93,7 @@ nav li:last-child {
 
 /* Hero style start */
 .hero-banner {
-  background-image: url('../../images/DSC_6168.JPG');
+  background-image: url('../../images/software.jpg');
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -152,13 +152,4 @@ form {
   margin-bottom: 20px;
 }
 
-/* Footer */
-.page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 
-.content-warp {
-  flex:1
-}
