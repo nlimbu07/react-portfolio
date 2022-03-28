@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { capitalizeFirstLetter } from '../../utils/helpers'
 import './resume.css'
+import MyResume from '../../images/Resume_Niraj Limbu.pdf'
 
 function Resume(){
     const [pages] = useState([
@@ -78,10 +79,10 @@ function Resume(){
         <h3>Achievement</h3>
         <ul>
             <li>Promoted to Job Developer, Catholic Charities, Phoenix, Arizona | 03/2017</li>            
-        </ul>
-
-        
-
+        </ul>    
+        <p className='text-center'>
+            Click here to download my <a href={MyResume} download>Resume</a>
+        </p>
     </article>
 
                 </div>
