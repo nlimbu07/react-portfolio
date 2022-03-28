@@ -3,7 +3,8 @@
 ## Portfolio Screenshot
 ![Portfolio Screenshot](./src/images/About-me.png)
 
-## Deployed Link https://nlimbu07.github.io/react-portfolio/
+## Deployed Link 
+[Deployed Link](https://niraj-react-portfolio.herokuapp.com/)
 ## User Story
 ```
 AS AN employer looking for candidates with experience building single-page applications 
