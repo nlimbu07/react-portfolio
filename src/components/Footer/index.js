@@ -4,11 +4,11 @@ import React from 'react';
 function Footer() {
   const icons = [
     {
-      name: 'fab fa-github',
+      name: 'fa fa-github',
       link: 'https://github.com/nlimbu07',
     },
     {
-      name: 'fab fa-linkedin',
+      name: 'fa fa-linkedin-square',
       link: 'https://www.linkedin.com/in/niraj-limbu-9bb365219/',
     },
   ];
