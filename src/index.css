@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Footer */
+footer a {
+  margin: 20pt;
+}
+
+footer i.fab {
+  font-size: 2rem;
+}

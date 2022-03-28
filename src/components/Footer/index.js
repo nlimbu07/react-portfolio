@@ -1,16 +1,37 @@
 import React from 'react';
-import './footer.css'
 
 
 function Footer() {
- 
+  const icons = [
+    {
+      name: 'fab fa-github',
+      link: 'https://github.com/nlimbu07',
+    },
+    {
+      name: 'fab fa-linkedin',
+      link: 'https://www.linkedin.com/in/niraj-limbu-9bb365219/',
+    },
+  ];
 
   return (
-    <div className='footer'>
-    <footer className='text-center'>
-     <h4>Thank you for visiting!</h4>
+    <section>
+      <footer>
+        <div className='row'>
+          <div className='col-lg-8 mx-auto text-center'>
+            {icons.map((icon) => (
+              <a
+                href={icon.link}
+                key={icon.name}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <i className={icon.name}></i>
+              </a>
+            ))}
+          </div>
+        </div>
       </footer>
-    </div>
+    </section>
   );
 }
 
