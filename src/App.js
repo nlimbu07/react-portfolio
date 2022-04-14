@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Page from './components/Page';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [pages] = useState([
@@ -12,24 +13,22 @@ function App() {
     { name: 'resume' },
   ]);
 
-  
-
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
     <div className='page-container'>
-    <div className='content-wrap'>
-      <Header>
-        <Nav
-          pages={pages}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-        ></Nav>
-      </Header>
-      <main>
-        <Page currentPage={currentPage}></Page>
-      </main>
-      <Footer />
+      <div className='content-wrap'>
+        <Header>
+          <Nav
+            pages={pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+          ></Nav>
+        </Header>
+        <main>
+          <Page currentPage={currentPage}></Page>
+        </main>
+        <Footer />
       </div>
     </div>
   );

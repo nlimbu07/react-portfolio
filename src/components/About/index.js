@@ -6,7 +6,7 @@ import Hero from '../Hero';
 function About() {
   const [pages] = useState([
     {
-      name: 'about me',
+      name: '',
     },
   ]);
 

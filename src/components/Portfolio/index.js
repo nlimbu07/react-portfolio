@@ -5,13 +5,13 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 function Portfolio() {
   const [pages] = useState([
     {
-      name: 'portfolio',
+      name: '',
     },
   ]);
   const [currentPage] = useState(pages[0]);
   const [projects] = useState([
     {
-      name: 'hot-sauce',
+      name: 'project3',
       description:
         "Fire In The Hole is an E-commerce website that sells hot sauce of varying heat index.",
       link: 'https://murmuring-lake-91341.herokuapp.com/',
