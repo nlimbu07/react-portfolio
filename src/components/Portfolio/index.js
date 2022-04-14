@@ -11,6 +11,13 @@ function Portfolio() {
   const [currentPage] = useState(pages[0]);
   const [projects] = useState([
     {
+      name: 'hot-sauce',
+      description:
+        "Fire In The Hole is an E-commerce website that sells hot sauce of varying heat index.",
+      link: 'https://murmuring-lake-91341.herokuapp.com/',
+      repo: 'https://github.com/nlimbu07/project-3',
+    },
+    {
       name: 'budget-tracker',
       description:
         "The user will be able to add expenses and deposits to their budget with or without a connection. If the user enters transactions offline, the total should be updated when they're brought back online.",
